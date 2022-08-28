@@ -1,0 +1,156 @@
+21-Apr-2022 23:26:30.116 starting BIND 9.10.3-P4-Ubuntu <id:ebd72b3> -g
+21-Apr-2022 23:26:30.116 built with '--prefix=/usr' '--mandir=/usr/share/man' '--libdir=/usr/lib/i386-linux-gnu' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/i386-linux-gnu/softhsm/libsofthsm2.so' 'CFLAGS=-g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE' 'LDFLAGS=-Wl,-Bsymbolic-functions -fPIE -pie -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2 -DDIG_SIGCHASE'
+21-Apr-2022 23:26:30.116 ----------------------------------------------------
+21-Apr-2022 23:26:30.116 BIND 9 is maintained by Internet Systems Consortium,
+21-Apr-2022 23:26:30.116 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+21-Apr-2022 23:26:30.116 corporation.  Support and training for BIND 9 are 
+21-Apr-2022 23:26:30.116 available at https://www.isc.org/support
+21-Apr-2022 23:26:30.116 ----------------------------------------------------
+21-Apr-2022 23:26:30.117 found 2 CPUs, using 2 worker threads
+21-Apr-2022 23:26:30.117 using 2 UDP listeners per interface
+21-Apr-2022 23:26:30.117 using up to 4096 sockets
+21-Apr-2022 23:26:30.121 loading configuration from '/etc/bind/named.conf'
+21-Apr-2022 23:26:30.122 reading built-in trusted keys from file '/etc/bind/bind.keys'
+21-Apr-2022 23:26:30.122 initializing GeoIP Country (IPv4) (type 1) DB
+21-Apr-2022 23:26:30.122 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:26:30.122 initializing GeoIP Country (IPv6) (type 12) DB
+21-Apr-2022 23:26:30.122 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:26:30.122 initializing GeoIP City (IPv4) (type 2) DB
+21-Apr-2022 23:26:30.122 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:26:30.122 GeoIP City (IPv6) (type 30) DB not available
+21-Apr-2022 23:26:30.122 GeoIP City (IPv6) (type 31) DB not available
+21-Apr-2022 23:26:30.122 GeoIP Region (type 3) DB not available
+21-Apr-2022 23:26:30.122 GeoIP Region (type 7) DB not available
+21-Apr-2022 23:26:30.122 GeoIP ISP (type 4) DB not available
+21-Apr-2022 23:26:30.122 GeoIP Org (type 5) DB not available
+21-Apr-2022 23:26:30.122 initializing GeoIP AS (type 9) DB
+21-Apr-2022 23:26:30.122 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:26:30.122 GeoIP Domain (type 11) DB not available
+21-Apr-2022 23:26:30.122 GeoIP NetSpeed (type 10) DB not available
+21-Apr-2022 23:26:30.122 using default UDP/IPv4 port range: [32768, 60999]
+21-Apr-2022 23:26:30.122 using default UDP/IPv6 port range: [32768, 60999]
+21-Apr-2022 23:26:30.123 listening on IPv6 interfaces, port 53
+21-Apr-2022 23:26:30.147 listening on IPv4 interface lo, 127.0.0.1#53
+21-Apr-2022 23:26:30.147 listening on IPv4 interface eth0, 172.18.0.3#53
+21-Apr-2022 23:26:30.148 generating session key for dynamic DNS
+21-Apr-2022 23:26:30.148 sizing zone task pool based on 7 zones
+21-Apr-2022 23:26:30.149 /etc/bind/named.conf.options:26: using specific query-source port suppresses port randomization and can be insecure.
+21-Apr-2022 23:26:30.150 set up managed keys zone for view _default, file 'managed-keys.bind'
+21-Apr-2022 23:26:30.150 automatic empty zone: 10.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.150 automatic empty zone: 16.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.150 automatic empty zone: 17.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.150 automatic empty zone: 18.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.150 automatic empty zone: 19.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 20.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 21.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 22.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 23.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 24.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 25.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 26.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 27.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 28.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 29.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 30.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 31.172.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 168.192.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 64.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 65.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 66.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.151 automatic empty zone: 67.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 68.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 69.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 70.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 71.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 72.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 73.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 74.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 75.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 76.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 77.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 78.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 79.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 80.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 81.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 82.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 83.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 84.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.152 automatic empty zone: 85.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 86.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 87.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 88.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 89.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 90.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 91.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 92.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 93.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 94.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 95.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 96.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 97.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 98.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 99.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 100.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 101.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 102.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.153 automatic empty zone: 103.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 104.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 105.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 106.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 107.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 108.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 109.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 110.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 111.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 112.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 113.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 114.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 115.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 116.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 117.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 118.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 119.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.154 automatic empty zone: 120.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 121.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 122.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 123.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 124.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 125.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 126.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 127.100.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 254.169.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: D.F.IP6.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 8.E.F.IP6.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: 9.E.F.IP6.ARPA
+21-Apr-2022 23:26:30.155 automatic empty zone: A.E.F.IP6.ARPA
+21-Apr-2022 23:26:30.156 automatic empty zone: B.E.F.IP6.ARPA
+21-Apr-2022 23:26:30.156 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+21-Apr-2022 23:26:30.156 automatic empty zone: EMPTY.AS112.ARPA
+21-Apr-2022 23:26:30.156 /etc/bind/named.conf.options:26: using specific query-source port suppresses port randomization and can be insecure.
+21-Apr-2022 23:26:30.157 configuring command channel from '/etc/bind/rndc.key'
+21-Apr-2022 23:26:30.157 command channel listening on 127.0.0.1#953
+21-Apr-2022 23:26:30.157 configuring command channel from '/etc/bind/rndc.key'
+21-Apr-2022 23:26:30.158 command channel listening on ::1#953
+21-Apr-2022 23:26:30.158 not using config file logging statement for logging due to -g option
+21-Apr-2022 23:26:30.158 managed-keys-zone: loaded serial 0
+21-Apr-2022 23:26:30.158 zone 0.in-addr.arpa/IN: loaded serial 1
+21-Apr-2022 23:26:30.163 zone 127.in-addr.arpa/IN: loaded serial 1
+21-Apr-2022 23:26:30.167 zone 255.in-addr.arpa/IN: loaded serial 1
+21-Apr-2022 23:26:30.167 zone 0.168.192.in-addr.arpa/IN: loaded serial 2008111001
+21-Apr-2022 23:26:30.168 zone localhost/IN: loaded serial 2
+21-Apr-2022 23:26:30.169 zone xubiang.com/IN: loaded serial 2008111001
+21-Apr-2022 23:26:30.169 all zones loaded
+21-Apr-2022 23:26:30.173 running
+21-Apr-2022 23:26:33.201 shutting down
+21-Apr-2022 23:26:33.201 stopping command channel on 127.0.0.1#953
+21-Apr-2022 23:26:33.201 stopping command channel on ::1#953
+21-Apr-2022 23:26:33.201 no longer listening on ::#53
+21-Apr-2022 23:26:33.201 no longer listening on 127.0.0.1#53
+21-Apr-2022 23:26:33.201 no longer listening on 172.18.0.3#53
+21-Apr-2022 23:26:33.222 exiting

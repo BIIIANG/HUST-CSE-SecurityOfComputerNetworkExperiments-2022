@@ -1,0 +1,593 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20220504141737
+; authanswer
+.			518396	IN NS	a.root-servers.net.
+			518396	IN NS	b.root-servers.net.
+			518396	IN NS	c.root-servers.net.
+			518396	IN NS	d.root-servers.net.
+			518396	IN NS	e.root-servers.net.
+			518396	IN NS	f.root-servers.net.
+			518396	IN NS	g.root-servers.net.
+			518396	IN NS	h.root-servers.net.
+			518396	IN NS	i.root-servers.net.
+			518396	IN NS	j.root-servers.net.
+			518396	IN NS	k.root-servers.net.
+			518396	IN NS	l.root-servers.net.
+			518396	IN NS	m.root-servers.net.
+; authanswer
+			518396	RRSIG	NS 8 0 518400 (
+					20220516200000 20220503190000 47671 .
+					WbOamNCX6LLnPIxYDOwc4slh22qVSRvUXvh3
+					OB190RbiwOeKPYiaT88csnYPWlrrj0ohR4MH
+					Tm8ebB1UEPTvNXBEnrUe7Omph7weIWmuGbf6
+					Ya1X4FdnOK8mqgZg6Rtl4oqkrqotLpGS7kq+
+					ua/VdNw4TW867WmfYCS4DqMh6Zv94b8h9aTf
+					gQQn/PXODDPufAzvk46Q3U4+I5xmQOJYIloN
+					9DObLHGYkxcrb3AherbgHuMvLP1dsymlmYh/
+					JlUPZw52WeVehHDmlpUxIR0WfRnNsxEvlc8N
+					cCmYQUm8PO6zTtY/zfzKIex9cNcbt+8MYcF3
+					Lz7zwPV/ldcHCP/45Q== )
+; glue
+cn.			172796	NS	a.dns.cn.
+			172796	NS	b.dns.cn.
+			172796	NS	c.dns.cn.
+			172796	NS	d.dns.cn.
+			172796	NS	e.dns.cn.
+			172796	NS	f.dns.cn.
+			172796	NS	g.dns.cn.
+			172796	NS	ns.cernet.net.
+; additional
+			86396	DS	57724 8 2 (
+					5D0423633EB24A499BE78AA22D1C0C9BA362
+					18FF49FD95A4CDF1A4AD97C67044 )
+; additional
+			86396	RRSIG	DS 8 1 86400 (
+					20220516200000 20220503190000 47671 .
+					ncT59YftZMWS9n7x7sD8mp2RqzU6IsgoR9jt
+					/BF6o00J3HdNFQ0nSVxCo1qvq5ENse2YwjHH
+					Yv1Jn7Mhanu4DKHRvwsfb62B+hrus8m6f1vR
+					HNZUv0ApgHRN/f+mcajdUqcolGw7AXuVbG2R
+					8sibETRmijgaSaStmhghN26ZKjTmJ2ySgFVT
+					7X/sW6lYwvJeLzhLzf5pp4/hdZvKOtbAOaQ/
+					z9TLibH28VJNoXF2OH00jbW75e8mPD6qtjBX
+					0f3pGzOQk654dp+ufsFOlrmJo0j7u9W0aCsx
+					T+mgULF6v7h1EjLzNjgtkcVPiYpWywXR4D+q
+					48zXJjvDKR0mevL1Zw== )
+; glue
+a.dns.cn.		172796	A	203.119.25.1
+; glue
+			172796	AAAA	2001:dc7::1
+; glue
+b.dns.cn.		172796	A	203.119.26.1
+; glue
+c.dns.cn.		172796	A	203.119.27.1
+; glue
+d.dns.cn.		172796	A	203.119.28.1
+; glue
+			172796	AAAA	2001:dc7:1000::1
+; glue
+e.dns.cn.		172796	A	203.119.29.1
+; glue
+f.dns.cn.		172796	A	195.219.8.90
+; glue
+g.dns.cn.		172796	A	66.198.183.65
+; glue
+edu.cn.			172796	NS	dns.edu.cn.
+			172796	NS	ns2.cuhk.hk.
+			172796	NS	ns2.cernet.net.
+			172796	NS	dns2.edu.cn.
+			172796	NS	deneb.dfn.de.
+; additional
+			86396	DS	15397 8 1 (
+					CA602972D554DF57CC8322C18D9CF942FAC4
+					7430 )
+			86396	DS	15397 8 2 (
+					3A6C89D32B3143D193521CE64389548821DA
+					90F770AB09ECD9C8680B2F4848B5 )
+; additional
+			86396	RRSIG	DS 8 2 86400 (
+					20220513135414 20220413130440 38388 cn.
+					T6YzJUJlMEI+cOvnpEgoSuRngnBjReFOfqQ4
+					ek7aeQkJt9LAlJJK62dVxIpwytKGVQHleGWg
+					tREjLcvJZJTTT4zVFCGF+6rYmY7nF30SH+wt
+					qmA0ymE3Hrd+VZl/EhsUibEFl5MxPldgpzmU
+					94M7J4yxfEtueEiliTN0aZkp5xw= )
+; glue
+dns.edu.cn.		172796	A	202.38.109.35
+; glue
+			172796	AAAA	2001:250:c006::35
+; glue
+dns2.edu.cn.		172796	A	202.112.0.13
+; glue
+			172796	AAAA	2001:da8:1:100::13
+; authauthority
+hust.edu.cn.		166666	NS	ns.xubiang.net.
+; glue
+dns1.hust.edu.cn.	172796	A	202.114.0.120
+; glue
+			172796	AAAA	2001:250:4000:2002::888
+; glue
+dns2.hust.edu.cn.	172796	A	59.172.234.181
+; authanswer
+jpgon.hust.edu.cn.	166666	A	11.111.111.111
+; authanswer
+mvhvf.hust.edu.cn.	259200	A	192.168.33.33
+; authanswer
+onfaj.hust.edu.cn.	259200	A	192.168.33.33
+; authanswer
+xgdvn.hust.edu.cn.	259200	A	192.168.33.33
+; glue
+de.			172796	NS	a.nic.de.
+			172796	NS	f.nic.de.
+			172796	NS	l.de.net.
+			172796	NS	n.de.net.
+			172796	NS	s.de.net.
+			172796	NS	z.nic.de.
+; additional
+			86396	DS	26755 8 2 (
+					F341357809A5954311CCB82ADE114C6C1D72
+					4A75C0395137AA3978035425E78D )
+; additional
+			86396	RRSIG	DS 8 1 86400 (
+					20220516200000 20220503190000 47671 .
+					ag0zG/QQzjlSUuNuF0dl+HL3++mCU2hTpSby
+					W9M36JkNMmgsuu92f68HpPmHykZY6/TC2xJn
+					lQAgqdnp3zH2XTlFZRhxLutadVfXPuTofh9t
+					EJWYX/7/I5lXBlo41xUcN5gkssKZsu4wrTYQ
+					oD6ReOw6KBVkJJ5SSzxe9LGcfPc6AfBow/bE
+					6S8OGxBBKZCBKAeIEB4iuM5PrA8toFynbmn2
+					/NVUq0cP4zoVWS7wU1egks6ZoRBw6QXZkqFR
+					/trs3d9EqHi2HBK+3zWfAP1uDPzf9UDMRXPv
+					QjRRPCeDZp/4MSefAHEyVieRgvACaDlARXGo
+					dBmAm+JW49MuoQGT2g== )
+; glue
+dfn.de.			86396	NS	ns1.dfn.de.
+			86396	NS	ns2.dfn.de.
+			86396	NS	ns3.dfn.de.
+; additional
+			86396	DS	52345 13 2 (
+					CB45E805D6DE033CD632640B0E75E01DA9D9
+					DE19FF70B6FCBB233DAB802D5F16 )
+; additional
+			86396	RRSIG	DS 8 2 86400 (
+					20220516052129 20220502035129 28599 de.
+					SRIQuB34ikm/EB7rAXikc3qEaf+WlSi4kfZm
+					F5l/CL0ud/l8yU2/lHmBzgna11J+sPq/Idhr
+					ArmMaFIdM77QqlejSuJaMhWOEjvpD5CeZGok
+					4r3Ouj9L6iKv+cvDj7JVkbmUT7x9gU5UWzDJ
+					wcAx0B1RY1gPBZDouJs0m8LKR6c= )
+; answer
+deneb.dfn.de.		3596	\-AAAA	;-$NXRRSET
+; dfn.de. SOA ns1.dfn.de. hostmaster.dfn.de. 1651478000 28800 7200 3024000 3600
+; dfn.de. RRSIG SOA ...
+; deneb.dfn.de. RRSIG NSEC ...
+; deneb.dfn.de. NSEC deneb-mgt.dfn.de. A RRSIG NSEC
+; authanswer
+			86396	A	192.76.176.9
+; authanswer
+			86396	RRSIG	A 13 3 86400 (
+					20220603093301 20220504085301 15867 dfn.de.
+					Sy/6zhPVvYlPHxdUQsbnxbKgwRoMC1alTKct
+					MGiryFH4+Kj1aFmBziM84p9Q/Ortn/t5u1c3
+					GPhma4jJWGjbvA== )
+; glue
+ns1.dfn.de.		86396	A	194.95.236.51
+; glue
+			86396	AAAA	2001:638:d:c110::51
+; glue
+ns2.dfn.de.		86396	A	194.95.236.59
+; glue
+			86396	AAAA	2001:638:d:c111::59
+; glue
+ns3.dfn.de.		86396	A	194.95.236.67
+; glue
+a.nic.de.		172796	A	194.0.0.53
+; glue
+			172796	AAAA	2001:678:2::53
+; glue
+f.nic.de.		172796	A	81.91.164.5
+; glue
+			172796	AAAA	2a02:568:0:2::53
+; glue
+z.nic.de.		172796	A	194.246.96.1
+; glue
+			172796	AAAA	2a02:568:fe02::de
+; glue
+hk.			172796	NS	c.hkirc.net.hk.
+			172796	NS	d.hkirc.net.hk.
+			172796	NS	t.hkirc.net.hk.
+			172796	NS	u.hkirc.net.hk.
+			172796	NS	v.hkirc.net.hk.
+			172796	NS	x.hkirc.net.hk.
+			172796	NS	y.hkirc.net.hk.
+			172796	NS	z.hkirc.net.hk.
+; additional
+			86396	DS	28487 8 2 (
+					B41EA828B063D4D5C188A23177FD1723E28C
+					083A1A52768CF9F80E09798ECF6F )
+; additional
+			86396	RRSIG	DS 8 1 86400 (
+					20220516200000 20220503190000 47671 .
+					cyFDiGtutBwWO8BsUr7Vw5duWcFcUMEl7Lo1
+					cRlQOMbz+XaVI2ULiCUzf4YC5nRTXlh3a/z+
+					xoQH2NCKZZMZOwGPEl5sptZOFUjPCtisLzN9
+					+QyZ1fCrvnEkgVAcjGnraayIARkfiKOzmbTE
+					XvuvGQEJAbYP2w2WrV9Zk1ML4Z/Bg7TwSYBL
+					eA3A+4te6j3OWBsW2P8SZnu2H6DmYSSqMMPT
+					FBlnWfwcDg7/NePTlsAToIrG+72XfPV8PGuN
+					BtufdZB8DDlsd6InkEjW0t4BiDSZTphkrYXE
+					1bJWouLIlb3G8fEch9Dozwz042Piij23B7pm
+					GEPgwnVyMEnaN501Vg== )
+; glue
+c.hkirc.net.hk.		172796	A	203.119.2.218
+; glue
+			172796	AAAA	2001:dca:4000::cb77:2da
+; glue
+d.hkirc.net.hk.		172796	A	203.119.87.218
+; glue
+			172796	AAAA	2001:dca:2000::cb77:57da
+; glue
+t.hkirc.net.hk.		172796	A	202.12.31.53
+; glue
+			172796	AAAA	2001:dd8:12::53
+; glue
+u.hkirc.net.hk.		172796	A	210.201.138.58
+; glue
+			172796	AAAA	2404:0:10a0::58
+; glue
+v.hkirc.net.hk.		172796	A	204.61.216.46
+; glue
+			172796	AAAA	2001:500:14:6046:ad::1
+; glue
+x.hkirc.net.hk.		172796	A	202.45.188.39
+; glue
+			172796	AAAA	2405:3001:1:3a::27
+; glue
+y.hkirc.net.hk.		172796	A	137.189.6.21
+; glue
+			172796	AAAA	2405:3000:3:6::15
+; glue
+z.hkirc.net.hk.		172796	A	194.146.106.70
+; glue
+			172796	AAAA	2001:67c:1010:17::53
+; glue
+net.			172796	NS	a.gtld-servers.net.
+			172796	NS	b.gtld-servers.net.
+			172796	NS	c.gtld-servers.net.
+			172796	NS	d.gtld-servers.net.
+			172796	NS	e.gtld-servers.net.
+			172796	NS	f.gtld-servers.net.
+			172796	NS	g.gtld-servers.net.
+			172796	NS	h.gtld-servers.net.
+			172796	NS	i.gtld-servers.net.
+			172796	NS	j.gtld-servers.net.
+			172796	NS	k.gtld-servers.net.
+			172796	NS	l.gtld-servers.net.
+			172796	NS	m.gtld-servers.net.
+; additional
+			86396	DS	35886 8 2 (
+					7862B27F5F516EBE19680444D4CE5E762981
+					931842C465F00236401D8BD973EE )
+; additional
+			86396	RRSIG	DS 8 1 86400 (
+					20220516200000 20220503190000 47671 .
+					SFA+W98nlVVjOm6EvXq3YVFkBFYJWWqHvix0
+					GnmoTwJbHhEDIuUOzuMSEnS7DaFa246AzvEx
+					hsJFG/DST30TUxbVXgBlKGKsaDKdM5xfiMxM
+					0SgqXCUksrZ23mpC0ilgzFypyrWdvSzmr1vz
+					TWD83Og9aErh8u9+ntKkr29G4uSB0OAL2+jF
+					oosZo1MdUVdh8zHW0+8J4ft77cyiDVPP9hEj
+					1UobLoYU4k9LLO/aAjISv8ZCqzuHpum68vrX
+					du4qNzZ1ODdODXfpHJjsSnfKw9uMvijLmApM
+					217XkXogq0yo9eJIyCne8yUxo1qyFaqW/m+R
+					RGdsi1hkbgg/xr9MtQ== )
+; glue
+ns.cernet.net.		172796	A	202.112.0.44
+; glue
+l.de.net.		172796	A	77.67.63.105
+; glue
+			172796	AAAA	2001:668:1f:11::105
+; glue
+n.de.net.		172796	A	194.146.107.6
+; glue
+			172796	AAAA	2001:67c:1011:1::53
+; glue
+s.de.net.		172796	A	195.243.137.26
+; glue
+			172796	AAAA	2003:8:14::53
+; glue
+a.gtld-servers.net.	172796	A	192.5.6.30
+; glue
+			172796	AAAA	2001:503:a83e::2:30
+; glue
+b.gtld-servers.net.	172796	A	192.33.14.30
+; glue
+			172796	AAAA	2001:503:231d::2:30
+; glue
+c.gtld-servers.net.	172796	A	192.26.92.30
+; glue
+			172796	AAAA	2001:503:83eb::30
+; glue
+d.gtld-servers.net.	172796	A	192.31.80.30
+; glue
+			172796	AAAA	2001:500:856e::30
+; glue
+e.gtld-servers.net.	172796	A	192.12.94.30
+; glue
+			172796	AAAA	2001:502:1ca1::30
+; glue
+f.gtld-servers.net.	172796	A	192.35.51.30
+; glue
+			172796	AAAA	2001:503:d414::30
+; glue
+g.gtld-servers.net.	172796	A	192.42.93.30
+; glue
+			172796	AAAA	2001:503:eea3::30
+; glue
+h.gtld-servers.net.	172796	A	192.54.112.30
+; glue
+			172796	AAAA	2001:502:8cc::30
+; glue
+i.gtld-servers.net.	172796	A	192.43.172.30
+; glue
+			172796	AAAA	2001:503:39c1::30
+; glue
+j.gtld-servers.net.	172796	A	192.48.79.30
+; glue
+			172796	AAAA	2001:502:7094::30
+; glue
+k.gtld-servers.net.	172796	A	192.52.178.30
+; glue
+			172796	AAAA	2001:503:d2d::30
+; glue
+l.gtld-servers.net.	172796	A	192.41.162.30
+; glue
+			172796	AAAA	2001:500:d937::30
+; glue
+m.gtld-servers.net.	172796	A	192.55.83.30
+; glue
+			172796	AAAA	2001:501:b1f9::30
+; additional
+a.root-servers.net.	604796	A	198.41.0.4
+; additional
+			604796	AAAA	2001:503:ba3e::2:30
+; additional
+b.root-servers.net.	604796	A	199.9.14.201
+; additional
+			604796	AAAA	2001:500:200::b
+; additional
+c.root-servers.net.	604796	A	192.33.4.12
+; additional
+			604796	AAAA	2001:500:2::c
+; additional
+d.root-servers.net.	604796	A	199.7.91.13
+; additional
+			604796	AAAA	2001:500:2d::d
+; additional
+e.root-servers.net.	604796	A	192.203.230.10
+; authanswer
+			604795	AAAA	2001:500:a8::e
+; additional
+f.root-servers.net.	604796	A	192.5.5.241
+; additional
+			604796	AAAA	2001:500:2f::f
+; additional
+g.root-servers.net.	604796	A	192.112.36.4
+; authanswer
+			604795	AAAA	2001:500:12::d0d
+; additional
+h.root-servers.net.	604796	A	198.97.190.53
+; additional
+			604796	AAAA	2001:500:1::53
+; additional
+i.root-servers.net.	604796	A	192.36.148.17
+; additional
+			604796	AAAA	2001:7fe::53
+; additional
+j.root-servers.net.	604796	A	192.58.128.30
+; additional
+			604796	AAAA	2001:503:c27::2:30
+; additional
+k.root-servers.net.	604796	A	193.0.14.129
+; additional
+			604796	AAAA	2001:7fd::1
+; additional
+l.root-servers.net.	604796	A	199.7.83.42
+; additional
+			604796	AAAA	2001:500:9f::42
+; additional
+m.root-servers.net.	604796	A	202.12.27.33
+; additional
+			604796	AAAA	2001:dc3::35
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+; f.dns.cn [v4 TTL 6] [v4 success] [v6 unexpected]
+;	195.219.8.90 [srtt 8] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; dns2.hust.edu.cn [v4 TTL 6] [v4 not_found] [v6 unexpected]
+;	59.172.234.181 [srtt 319430] [flags 00000008] [edns 3/0/0/0/0] [plain 24/189] [udpsize 512] [ttl 1796]
+; v.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	204.61.216.46 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:500:14:6046:ad::1 [srtt 13] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; c.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.26.92.30 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:83eb::30 [srtt 13] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; c.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	203.119.2.218 [srtt 26] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:dca:4000::cb77:2da [srtt 24] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; ns.cernet.net [v4 TTL 6] [v4 success] [v6 unexpected]
+;	202.112.0.44 [srtt 17722] [flags 00004000] [edns 3/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+; i.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.43.172.30 [srtt 23] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:39c1::30 [srtt 10] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; e.dns.cn [v4 TTL 6] [v4 success] [v6 unexpected]
+;	203.119.29.1 [srtt 5] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; u.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	210.201.138.58 [srtt 114875] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2404:0:10a0::58 [srtt 14350] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1796]
+; b.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.33.14.30 [srtt 23] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:231d::2:30 [srtt 1] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; dns1.hust.edu.cn [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	202.114.0.120 [srtt 273040] [flags 00000008] [edns 2/0/0/0/0] [plain 17/189] [udpsize 512] [ttl 1796]
+;	2001:250:4000:2002::888 [srtt 487920] [flags 00000000] [edns 0/1/1/1/1] [plain 0/5] [ttl 1796]
+; ns2.cuhk.hk [v4 unexpected] [v6 unexpected]
+; h.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.54.112.30 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:502:8cc::30 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; G.ROOT-SERVERS.NET [v6 TTL 1795] [v4 unexpected] [v6 success]
+;	2001:500:12::d0d [srtt 158458] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+; dns.edu.cn [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	202.38.109.35 [srtt 20049] [flags 00004000] [edns 4/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2001:250:c006::35 [srtt 24430] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1796]
+; d.dns.cn [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	203.119.28.1 [srtt 7] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:dc7:1000::1 [srtt 17] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; ns2.dfn.de [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	194.95.236.59 [srtt 112722] [flags 00004000] [edns 2/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2001:638:d:c111::59 [srtt 31] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; ns.xubiang.net [v4 TTL 0] [v6 TTL 0] [v4 success] [v6 success]
+;	172.18.0.1 [srtt 394] [flags 00004000] [edns 3/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1800]
+;	::1 [srtt 182] [flags 00004000] [edns 2/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1800]
+;		onfaj.hust.edu.cn A [lame TTL 600]
+;		xgdvn.hust.edu.cn A [lame TTL 600]
+; t.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	202.12.31.53 [srtt 22] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:dd8:12::53 [srtt 132080] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1796]
+; a.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.5.6.30 [srtt 11] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:a83e::2:30 [srtt 3] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; z.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	194.146.106.70 [srtt 5] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:67c:1010:17::53 [srtt 15] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; g.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.42.93.30 [srtt 20] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:eea3::30 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; m.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.55.83.30 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:501:b1f9::30 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; c.dns.cn [v4 TTL 6] [v4 success] [v6 unexpected]
+;	203.119.27.1 [srtt 21] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; n.de.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	194.146.107.6 [srtt 25] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:67c:1011:1::53 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; a.nic.de [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	194.0.0.53 [srtt 155156] [flags 00004000] [edns 2/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2001:678:2::53 [srtt 20] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; z.nic.de [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	194.246.96.1 [srtt 2] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2a02:568:fe02::de [srtt 11] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; y.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	137.189.6.21 [srtt 33453] [flags 00004000] [edns 2/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2405:3000:3:6::15 [srtt 8] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; f.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.35.51.30 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:d414::30 [srtt 2] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; E.ROOT-SERVERS.NET [v6 TTL 1795] [v4 unexpected] [v6 success]
+;	2001:500:a8::e [srtt 127620] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+; l.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.41.162.30 [srtt 108063] [flags 00004000] [edns 2/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2001:500:d937::30 [srtt 2] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; b.dns.cn [v4 TTL 6] [v4 success] [v6 unexpected]
+;	203.119.26.1 [srtt 24] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; s.de.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	195.243.137.26 [srtt 4] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2003:8:14::53 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; ns1.dfn.de [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	194.95.236.51 [srtt 20] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:638:d:c110::51 [srtt 21] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; x.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	202.45.188.39 [srtt 13] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2405:3001:1:3a::27 [srtt 196620] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1796]
+; e.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.12.94.30 [srtt 30] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:502:1ca1::30 [srtt 7] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; f.nic.de [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	81.91.164.5 [srtt 7] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2a02:568:0:2::53 [srtt 10] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; k.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.52.178.30 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:503:d2d::30 [srtt 4] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; a.dns.cn [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	203.119.25.1 [srtt 7] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:dc7::1 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; l.de.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	77.67.63.105 [srtt 13] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:668:1f:11::105 [srtt 25] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; g.dns.cn [v4 TTL 6] [v4 success] [v6 unexpected]
+;	66.198.183.65 [srtt 76392] [flags 00004000] [edns 1/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+; dns2.edu.cn [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	202.112.0.13 [srtt 7696] [flags 00004000] [edns 1/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2001:da8:1:100::13 [srtt 29] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; deneb.dfn.de [v4 TTL 1796] [v6 TTL 3596] [v4 success] [v6 nxrrset]
+;	192.76.176.9 [srtt 16] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0]
+; d.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.31.80.30 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:500:856e::30 [srtt 236380] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1796]
+; d.hkirc.net.hk [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	203.119.87.218 [srtt 29] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+;	2001:dca:2000::cb77:57da [srtt 25] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; ns3.dfn.de [v4 TTL 6] [v4 success] [v6 unexpected]
+;	194.95.236.67 [srtt 15] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1796]
+; j.gtld-servers.net [v4 TTL 6] [v6 TTL 6] [v4 success] [v6 success]
+;	192.48.79.30 [srtt 204310] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1796]
+;	2001:502:7094::30 [srtt 93570] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1796]
+; ns2.cernet.net [v4 unexpected] [v6 unexpected]
+;
+; Unassociated entries
+;
+;	192.228.79.201 [srtt 275850] [flags 00004000] [edns 12/4/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	2001:503:ba3e::2:30 [srtt 134666] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	199.7.91.13 [srtt 170880] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	2001:500:2::c [srtt 167192] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	192.36.148.17 [srtt 490190] [flags 00004000] [edns 2/1/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	199.7.83.42 [srtt 938480] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	192.112.36.4 [srtt 233210] [flags 00004000] [edns 8/2/0/0/0] [plain 0/0] [udpsize 1171] [ttl 1795]
+;	192.58.128.30 [srtt 308750] [flags 00004000] [edns 1/1/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	192.203.230.10 [srtt 123420] [flags 00004000] [edns 3/3/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	192.5.5.241 [srtt 36872] [flags 00004000] [edns 27/1/0/0/0] [plain 0/0] [udpsize 708] [ttl 1795]
+;	198.97.190.53 [srtt 613490] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	2001:500:84::b [srtt 203411] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	193.0.14.129 [srtt 298970] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	2001:7fe::53 [srtt 115703] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	2001:dc3::35 [srtt 142690] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	2001:500:2f::f [srtt 80140] [flags 00000000] [edns 0/3/3/3/3] [plain 0/0] [ttl 1795]
+;	2001:503:c27::2:30 [srtt 155635] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	202.12.27.33 [srtt 384710] [flags 00004000] [edns 2/2/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	2001:7fd::1 [srtt 95790] [flags 00000000] [edns 0/3/3/3/3] [plain 0/0] [ttl 1795]
+;	192.33.4.12 [srtt 109080] [flags 00004000] [edns 12/1/0/0/0] [plain 0/0] [udpsize 1097] [ttl 1795]
+;	2001:500:2d::d [srtt 224161] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	198.41.0.4 [srtt 485940] [flags 00004000] [edns 5/3/0/0/0] [plain 0/0] [udpsize 512] [ttl 1795]
+;	2001:500:3::42 [srtt 97618] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1795]
+;	2001:500:1::53 [srtt 99170] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1795]
+;
+; Bad cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20220504141737
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+; Dump complete

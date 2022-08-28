@@ -1,0 +1,1397 @@
+21-Apr-2022 23:30:51.868 starting BIND 9.10.3-P4-Ubuntu <id:ebd72b3> -g -d 3
+21-Apr-2022 23:30:51.868 built with '--prefix=/usr' '--mandir=/usr/share/man' '--libdir=/usr/lib/i386-linux-gnu' '--infodir=/usr/share/info' '--sysconfdir=/etc/bind' '--localstatedir=/' '--enable-threads' '--enable-largefile' '--with-libtool' '--enable-shared' '--enable-static' '--with-openssl=/usr' '--with-gssapi=/usr' '--with-gnu-ld' '--with-geoip=/usr' '--with-atf=no' '--enable-ipv6' '--enable-rrl' '--enable-filter-aaaa' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib/i386-linux-gnu/softhsm/libsofthsm2.so' 'CFLAGS=-g -O2 -fPIE -fstack-protector-strong -Wformat -Werror=format-security -fno-strict-aliasing -fno-delete-null-pointer-checks -DNO_VERSION_DATE' 'LDFLAGS=-Wl,-Bsymbolic-functions -fPIE -pie -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2 -DDIG_SIGCHASE'
+21-Apr-2022 23:30:51.868 ----------------------------------------------------
+21-Apr-2022 23:30:51.868 BIND 9 is maintained by Internet Systems Consortium,
+21-Apr-2022 23:30:51.868 Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+21-Apr-2022 23:30:51.868 corporation.  Support and training for BIND 9 are 
+21-Apr-2022 23:30:51.868 available at https://www.isc.org/support
+21-Apr-2022 23:30:51.868 ----------------------------------------------------
+21-Apr-2022 23:30:51.868 found 2 CPUs, using 2 worker threads
+21-Apr-2022 23:30:51.868 using 2 UDP listeners per interface
+21-Apr-2022 23:30:51.869 using up to 4096 sockets
+21-Apr-2022 23:30:51.869 Registering DLZ_dlopen driver
+21-Apr-2022 23:30:51.869 Registering SDLZ driver 'dlopen'
+21-Apr-2022 23:30:51.869 Registering DLZ driver 'dlopen'
+21-Apr-2022 23:30:51.872 decrement_reference: delete from rbt: 0xb4f31048 .
+21-Apr-2022 23:30:51.873 loading configuration from '/etc/bind/named.conf'
+21-Apr-2022 23:30:51.873 reading built-in trusted keys from file '/etc/bind/bind.keys'
+21-Apr-2022 23:30:51.873 set maximum stack size to 18446744073709551615: success
+21-Apr-2022 23:30:51.873 set maximum data size to 18446744073709551615: success
+21-Apr-2022 23:30:51.873 set maximum core size to 18446744073709551615: success
+21-Apr-2022 23:30:51.873 set maximum open files to 18446744073709551615: success
+21-Apr-2022 23:30:51.873 initializing GeoIP Country (IPv4) (type 1) DB
+21-Apr-2022 23:30:51.873 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:30:51.873 initializing GeoIP Country (IPv6) (type 12) DB
+21-Apr-2022 23:30:51.874 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:30:51.874 initializing GeoIP City (IPv4) (type 2) DB
+21-Apr-2022 23:30:51.874 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:30:51.874 GeoIP City (IPv6) (type 30) DB not available
+21-Apr-2022 23:30:51.874 GeoIP City (IPv6) (type 31) DB not available
+21-Apr-2022 23:30:51.874 GeoIP Region (type 3) DB not available
+21-Apr-2022 23:30:51.874 GeoIP Region (type 7) DB not available
+21-Apr-2022 23:30:51.874 GeoIP ISP (type 4) DB not available
+21-Apr-2022 23:30:51.874 GeoIP Org (type 5) DB not available
+21-Apr-2022 23:30:51.874 initializing GeoIP AS (type 9) DB
+21-Apr-2022 23:30:51.874 GEO-106FREE 20160408 Bu
+21-Apr-2022 23:30:51.874 GeoIP Domain (type 11) DB not available
+21-Apr-2022 23:30:51.874 GeoIP NetSpeed (type 10) DB not available
+21-Apr-2022 23:30:51.874 using default UDP/IPv4 port range: [32768, 60999]
+21-Apr-2022 23:30:51.874 using default UDP/IPv6 port range: [32768, 60999]
+21-Apr-2022 23:30:51.875 listening on IPv6 interfaces, port 53
+21-Apr-2022 23:30:51.875 clientmgr @0xb4f57008: create
+21-Apr-2022 23:30:51.890 clientmgr @0xb4f57008: createclients
+21-Apr-2022 23:30:51.890 clientmgr @0xb4f57008: get client
+21-Apr-2022 23:30:51.891 clientmgr @0xb4f57008: create new
+21-Apr-2022 23:30:51.891 clientmgr @0xb4f57008: clientmctx
+21-Apr-2022 23:30:51.891 client @0xb2e29d98: create
+21-Apr-2022 23:30:51.891 clientmgr @0xb4f57008: get client
+21-Apr-2022 23:30:51.891 clientmgr @0xb4f57008: create new
+21-Apr-2022 23:30:51.891 clientmgr @0xb4f57008: clientmctx
+21-Apr-2022 23:30:51.892 client @0xb2e318e8: create
+21-Apr-2022 23:30:51.892 clientmgr @0xb4f57008: createclients
+21-Apr-2022 23:30:51.892 clientmgr @0xb4f57008: get client
+21-Apr-2022 23:30:51.892 clientmgr @0xb4f57008: create new
+21-Apr-2022 23:30:51.892 clientmgr @0xb4f57008: clientmctx
+21-Apr-2022 23:30:51.893 client @0xb2e39438: create
+21-Apr-2022 23:30:51.893 listening on IPv4 interface lo, 127.0.0.1#53
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: create
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: createclients
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: get client
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: create new
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: clientmctx
+21-Apr-2022 23:30:51.893 client @0xb2e3bee0: create
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: get client
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: create new
+21-Apr-2022 23:30:51.893 clientmgr @0xb4f57240: clientmctx
+21-Apr-2022 23:30:51.894 client @0xb2e42fd8: create
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57240: createclients
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57240: get client
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57240: create new
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57240: clientmctx
+21-Apr-2022 23:30:51.894 client @0xb2e76e30: create
+21-Apr-2022 23:30:51.894 listening on IPv4 interface eth0, 172.18.0.3#53
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: create
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: createclients
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: get client
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: create new
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: clientmctx
+21-Apr-2022 23:30:51.894 client @0xb2e7e980: create
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: get client
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: create new
+21-Apr-2022 23:30:51.894 clientmgr @0xb4f57478: clientmctx
+21-Apr-2022 23:30:51.895 client @0xb2e864d0: create
+21-Apr-2022 23:30:51.895 clientmgr @0xb4f57478: createclients
+21-Apr-2022 23:30:51.895 clientmgr @0xb4f57478: get client
+21-Apr-2022 23:30:51.895 clientmgr @0xb4f57478: create new
+21-Apr-2022 23:30:51.895 clientmgr @0xb4f57478: clientmctx
+21-Apr-2022 23:30:51.895 client @0xb2e8e020: create
+21-Apr-2022 23:30:51.895 generating session key for dynamic DNS
+21-Apr-2022 23:30:51.895 sizing zone task pool based on 7 zones
+21-Apr-2022 23:30:51.896 decrement_reference: delete from rbt: 0xb4f42fc8 .
+21-Apr-2022 23:30:51.896 zone_settimer: zone localhost/IN: enter
+21-Apr-2022 23:30:51.896 zone_settimer: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.896 zone_settimer: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.896 zone_settimer: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.896 zone_settimer: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.896 zone_settimer: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.897 /etc/bind/named.conf.options:26: using specific query-source port suppresses port randomization and can be insecure.
+21-Apr-2022 23:30:51.898 dns_requestmgr_create
+21-Apr-2022 23:30:51.898 dns_requestmgr_create: 0xb0ece508
+21-Apr-2022 23:30:51.898 dns_requestmgr_whenshutdown
+21-Apr-2022 23:30:51.898 set up managed keys zone for view _default, file 'managed-keys.bind'
+21-Apr-2022 23:30:51.898 automatic empty zone: 10.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 16.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 17.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 18.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 19.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 20.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 21.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 22.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 23.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 24.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 25.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 26.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.898 automatic empty zone: 27.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 28.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 29.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 30.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 31.172.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 zone 168.192.IN-ADDR.ARPA/IN: replacing zone database
+21-Apr-2022 23:30:51.899 automatic empty zone: 168.192.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 64.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 65.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 66.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 67.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 68.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 69.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 70.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 71.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 72.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 73.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 74.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 75.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.899 automatic empty zone: 76.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 77.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 78.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 79.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 80.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 81.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 82.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 83.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 84.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 85.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 86.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 87.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 88.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 89.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 90.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 91.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 92.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 93.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 94.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.900 automatic empty zone: 95.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 96.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 97.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 98.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 99.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 100.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 101.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 102.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 103.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 104.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 105.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 106.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 107.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 108.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 109.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 110.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 111.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 112.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.901 automatic empty zone: 113.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 114.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 115.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 116.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 117.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 118.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 119.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 120.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 121.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 122.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 123.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 124.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 125.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 126.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 127.100.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.902 automatic empty zone: 254.169.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: D.F.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 8.E.F.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 9.E.F.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: A.E.F.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: B.E.F.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+21-Apr-2022 23:30:51.903 automatic empty zone: EMPTY.AS112.ARPA
+21-Apr-2022 23:30:51.903 zone_settimer: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.904 zone_settimer: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:51.904 zone_settimer: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.904 zone_settimer: zone id.server/CH: enter
+21-Apr-2022 23:30:51.905 /etc/bind/named.conf.options:26: using specific query-source port suppresses port randomization and can be insecure.
+21-Apr-2022 23:30:51.906 dns_requestmgr_create
+21-Apr-2022 23:30:51.906 dns_requestmgr_create: 0xb0efec08
+21-Apr-2022 23:30:51.906 dns_requestmgr_whenshutdown
+21-Apr-2022 23:30:51.906 configuring command channel from '/etc/bind/rndc.key'
+21-Apr-2022 23:30:51.906 command channel listening on 127.0.0.1#953
+21-Apr-2022 23:30:51.906 configuring command channel from '/etc/bind/rndc.key'
+21-Apr-2022 23:30:51.906 command channel listening on ::1#953
+21-Apr-2022 23:30:51.906 not using config file logging statement for logging due to -g option
+21-Apr-2022 23:30:51.907 client @0xb2e29d98: udprecv
+21-Apr-2022 23:30:51.907 client @0xb2e318e8: udprecv
+21-Apr-2022 23:30:51.907 client @0xb2e39438: accept
+21-Apr-2022 23:30:51.907 client @0xb2e3bee0: udprecv
+21-Apr-2022 23:30:51.907 client @0xb2e42fd8: udprecv
+21-Apr-2022 23:30:51.907 client @0xb2e76e30: accept
+21-Apr-2022 23:30:51.907 client @0xb2e7e980: udprecv
+21-Apr-2022 23:30:51.907 client @0xb2e864d0: udprecv
+21-Apr-2022 23:30:51.907 client @0xb2e8e020: accept
+21-Apr-2022 23:30:51.907 load_configuration: success
+21-Apr-2022 23:30:51.908 managed-keys-zone: starting load
+21-Apr-2022 23:30:51.908 managed-keys-zone: loading from master file managed-keys.bind failed: file not found
+21-Apr-2022 23:30:51.908 managed-keys-zone: number of nodes in database: 1
+21-Apr-2022 23:30:51.908 managed-keys-zone: creating SOA
+21-Apr-2022 23:30:51.908 no journal file, but that's OK
+21-Apr-2022 23:30:51.908 managed-keys-zone: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.908 managed-keys-zone: loaded; checking validity
+21-Apr-2022 23:30:51.908 managed-keys-zone: synchronizing trusted keys
+21-Apr-2022 23:30:51.908 decrement_reference: delete from rbt: 0xb0c46048 .
+21-Apr-2022 23:30:51.908 zone_settimer: managed-keys-zone : enter
+21-Apr-2022 23:30:51.908 managed-keys-zone: loaded serial 0
+21-Apr-2022 23:30:51.909 zone EMPTY.AS112.ARPA/IN: starting load
+21-Apr-2022 23:30:51.909 zone EMPTY.AS112.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.909 zone EMPTY.AS112.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.909 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+21-Apr-2022 23:30:51.909 zone 0.in-addr.arpa/IN: starting load
+21-Apr-2022 23:30:51.909 zone 0.in-addr.arpa/IN: number of nodes in database: 1
+21-Apr-2022 23:30:51.909 no journal file, but that's OK
+21-Apr-2022 23:30:51.909 zone 0.in-addr.arpa/IN: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.909 zone 0.in-addr.arpa/IN: loaded; checking validity
+21-Apr-2022 23:30:51.909 decrement_reference: delete from rbt: 0xb0c4f058 0.in-addr.arpa
+21-Apr-2022 23:30:51.910 zone_settimer: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.910 zone 0.in-addr.arpa/IN: loaded serial 1
+21-Apr-2022 23:30:51.910 zone 10.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.910 zone 10.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.910 zone 10.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.910 zone 101.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.910 zone 101.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.910 zone 101.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.910 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.910 zone 100.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.910 zone 100.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.910 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.910 zone 100.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.911 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.911 zone 115.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.911 zone 115.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.911 zone 103.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.911 zone 103.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.911 zone 103.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.911 zone 115.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.911 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.911 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.911 zone 108.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.911 zone 108.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.911 zone 105.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.911 zone 105.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.911 zone 105.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.911 zone 108.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.911 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.912 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.912 zone 65.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.912 zone 65.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.912 zone 65.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.912 zone 109.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.912 zone 109.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.912 zone 109.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.912 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.912 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.912 zone 113.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.912 zone 113.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.912 zone 113.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.912 zone 111.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.912 zone 111.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.912 zone 111.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.913 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.913 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.913 zone 69.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.913 zone 69.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.913 zone 69.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.913 zone 114.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.914 zone 114.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.914 zone 114.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.914 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.914 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.914 zone 126.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.914 zone 118.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.914 zone 126.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.914 zone 118.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.914 zone 118.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.915 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.915 zone 126.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.915 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.915 zone 64.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.915 zone 64.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.915 zone 64.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.915 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.915 zone 122.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.915 zone 122.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.915 zone 75.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.916 zone 75.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.916 zone 122.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.916 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.916 zone 75.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.916 zone 104.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.916 zone 104.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.916 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.916 zone 102.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.916 zone 102.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.916 zone 102.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.916 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.916 zone 104.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.917 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.917 zone 116.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.917 zone 116.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.917 zone 116.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.917 zone 106.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.917 zone 106.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.917 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.917 zone 120.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.917 zone 120.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.917 zone 120.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.917 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.917 zone 123.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.917 zone 123.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.918 zone 123.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.918 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.918 zone 106.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.918 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.918 zone 107.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.918 zone 107.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.918 zone 107.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.918 zone 72.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.918 zone 72.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.918 zone 72.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.918 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.918 zone 119.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.918 zone 119.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.918 zone 119.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.919 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.919 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.919 zone 76.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.919 zone 76.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.919 zone 76.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.919 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.919 zone 73.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.919 zone 73.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.919 zone 73.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.919 zone 18.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.919 zone 18.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.919 zone 18.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.919 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.919 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.920 zone 79.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.920 zone 79.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.920 zone 79.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.920 zone 89.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.920 zone 89.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.920 zone 89.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.920 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.920 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.920 zone 82.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.920 zone 82.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.920 zone 82.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.920 zone 93.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.920 zone 93.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.920 zone 93.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.921 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.921 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.921 zone 70.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.921 zone 70.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.921 zone 70.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.921 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.921 zone 77.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.921 zone 77.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.921 zone 71.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.921 zone 71.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.921 zone 71.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.921 zone 77.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.921 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.921 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.922 zone 92.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.922 zone 88.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.922 zone 88.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.922 zone 88.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.922 zone 92.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.922 zone 92.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.922 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.922 zone 125.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.922 zone 125.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.922 zone 125.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.922 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.922 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.922 zone 78.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.922 zone 78.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.922 zone 78.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.923 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.923 zone 27.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.923 zone 27.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.923 zone 27.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.923 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.923 zone 110.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.923 zone 110.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.923 zone 110.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.923 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.925 zone 66.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.925 zone 66.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.925 zone 66.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.925 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.925 zone 112.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.925 zone 112.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.925 zone 112.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.926 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.926 zone 68.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.926 zone 68.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.926 zone 68.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.926 zone 2.0.192.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.926 zone 2.0.192.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.926 zone 2.0.192.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.927 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.927 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.927 zone 29.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.927 zone 29.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.927 zone 29.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.927 zone 85.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.927 zone 85.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.927 zone 85.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.927 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.927 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.927 zone 95.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.927 zone 95.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.927 zone 95.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.927 zone xubiang.com/IN: starting load
+21-Apr-2022 23:30:51.927 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.928 zone xubiang.com/IN: number of nodes in database: 5
+21-Apr-2022 23:30:51.928 no journal file, but that's OK
+21-Apr-2022 23:30:51.928 zone xubiang.com/IN: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.928 zone xubiang.com/IN: loaded; checking validity
+21-Apr-2022 23:30:51.928 decrement_reference: delete from rbt: 0xb0c4f0a8 xubiang.com
+21-Apr-2022 23:30:51.928 zone_settimer: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.928 zone 94.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.928 zone 94.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.928 zone 94.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.928 zone xubiang.com/IN: loaded serial 2008111001
+21-Apr-2022 23:30:51.928 zone 80.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.928 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.928 zone 99.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.928 zone 99.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.929 zone 99.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.929 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.929 zone 98.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.929 zone 80.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.929 zone 80.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.929 zone 98.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.929 zone 98.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.929 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.929 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.929 zone 83.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.929 zone 83.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.929 zone 83.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.929 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.929 zone 19.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.930 zone 19.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.930 zone 81.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.930 zone 81.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.930 zone 81.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.930 zone 19.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.930 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.930 zone 28.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.930 zone 28.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.930 zone 28.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.930 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.930 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.930 zone 97.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.930 zone 97.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.930 zone 97.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.931 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.931 zone 117.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.931 zone 117.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.931 zone 117.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.931 zone 74.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.931 zone 74.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.931 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.931 zone 121.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.931 zone 121.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.931 zone 121.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.931 zone 74.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.931 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.931 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.931 zone 96.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.931 zone 96.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.932 zone 96.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.932 zone 127.in-addr.arpa/IN: starting load
+21-Apr-2022 23:30:51.932 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.932 zone 127.in-addr.arpa/IN: number of nodes in database: 2
+21-Apr-2022 23:30:51.932 no journal file, but that's OK
+21-Apr-2022 23:30:51.932 zone 127.in-addr.arpa/IN: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.932 zone 127.in-addr.arpa/IN: loaded; checking validity
+21-Apr-2022 23:30:51.932 decrement_reference: delete from rbt: 0xb0c4f238 127.in-addr.arpa
+21-Apr-2022 23:30:51.932 zone_settimer: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.932 zone 16.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.932 zone 16.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.932 zone 16.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.932 zone 127.in-addr.arpa/IN: loaded serial 1
+21-Apr-2022 23:30:51.932 zone 255.in-addr.arpa/IN: starting load
+21-Apr-2022 23:30:51.932 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.933 zone 255.in-addr.arpa/IN: number of nodes in database: 1
+21-Apr-2022 23:30:51.933 no journal file, but that's OK
+21-Apr-2022 23:30:51.933 zone 255.in-addr.arpa/IN: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.933 zone 255.in-addr.arpa/IN: loaded; checking validity
+21-Apr-2022 23:30:51.933 decrement_reference: delete from rbt: 0xb0bfe0f8 255.in-addr.arpa
+21-Apr-2022 23:30:51.933 zone_settimer: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.933 zone 255.in-addr.arpa/IN: loaded serial 1
+21-Apr-2022 23:30:51.933 zone 21.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.933 zone 21.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.933 zone 21.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.933 zone 84.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.933 zone 84.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.933 zone 84.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.933 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.933 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.933 zone 86.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.934 zone 86.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.934 zone 86.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.934 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.934 zone 23.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.934 zone 23.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.934 zone B.E.F.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.934 zone B.E.F.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.934 zone B.E.F.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.934 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.934 zone 23.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.934 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.934 zone 254.169.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.934 zone 254.169.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.935 zone 24.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.935 zone 24.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.935 zone 24.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.935 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.935 zone 254.169.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.935 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.935 zone 124.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.935 zone 124.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.935 zone 124.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.935 zone 20.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.935 zone 20.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.935 zone 20.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.935 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.936 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.936 zone 127.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.936 zone A.E.F.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.936 zone A.E.F.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.936 zone A.E.F.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.936 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.936 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.936 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.936 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.936 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.936 zone D.F.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.936 zone D.F.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.936 zone 127.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.936 zone 127.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.936 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.936 zone D.F.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.936 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.937 zone 26.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.937 zone 87.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.937 zone 87.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.937 zone 87.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.937 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.937 zone 90.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.937 zone 90.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.937 zone 90.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.937 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.937 zone 100.51.198.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.937 zone 100.51.198.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.937 zone 100.51.198.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.937 zone 26.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.937 zone 26.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.937 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.938 zone 25.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.938 zone 25.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.938 zone 25.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.938 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.938 zone 30.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.938 zone 30.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.938 zone 30.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.938 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.938 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.938 zone 67.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.938 zone 67.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.938 zone 67.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.938 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.938 zone 255.255.255.255.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.939 zone 255.255.255.255.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.939 zone 255.255.255.255.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.939 zone 31.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.939 zone 31.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.939 zone 31.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.939 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.939 zone 91.100.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.939 zone 91.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.940 zone 91.100.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.940 zone_settimer: zone 31.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.940 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.940 zone 17.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.940 zone 17.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.940 zone 17.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.940 zone 0.168.192.in-addr.arpa/IN: starting load
+21-Apr-2022 23:30:51.940 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.941 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.941 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.941 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.941 zone 0.168.192.in-addr.arpa/IN: number of nodes in database: 4
+21-Apr-2022 23:30:51.941 no journal file, but that's OK
+21-Apr-2022 23:30:51.941 zone 0.168.192.in-addr.arpa/IN: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.941 zone 0.168.192.in-addr.arpa/IN: loaded; checking validity
+21-Apr-2022 23:30:51.941 decrement_reference: delete from rbt: 0xb0bff218 0.168.192.in-addr.arpa
+21-Apr-2022 23:30:51.941 zone_settimer: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.942 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.942 zone hostname.bind/CH: starting load
+21-Apr-2022 23:30:51.942 zone hostname.bind/CH: number of nodes in database: 0
+21-Apr-2022 23:30:51.942 zone hostname.bind/CH: loaded; checking validity
+21-Apr-2022 23:30:51.942 zone 0.168.192.in-addr.arpa/IN: loaded serial 2008111001
+21-Apr-2022 23:30:51.942 zone_settimer: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:51.942 zone 113.0.203.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.942 zone 113.0.203.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.942 zone 113.0.203.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.942 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.942 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.942 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.942 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.942 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.943 zone authors.bind/CH: starting load
+21-Apr-2022 23:30:51.943 zone authors.bind/CH: number of nodes in database: 0
+21-Apr-2022 23:30:51.943 zone 22.172.IN-ADDR.ARPA/IN: starting load
+21-Apr-2022 23:30:51.943 zone 22.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.943 zone 22.172.IN-ADDR.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.943 zone authors.bind/CH: loaded; checking validity
+21-Apr-2022 23:30:51.943 zone_settimer: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.943 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.943 zone 8.E.F.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.943 zone 8.E.F.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.943 zone 8.E.F.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.943 zone id.server/CH: starting load
+21-Apr-2022 23:30:51.943 zone id.server/CH: number of nodes in database: 0
+21-Apr-2022 23:30:51.944 zone id.server/CH: loaded; checking validity
+21-Apr-2022 23:30:51.944 zone_settimer: zone id.server/CH: enter
+21-Apr-2022 23:30:51.944 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.944 zone 9.E.F.IP6.ARPA/IN: starting load
+21-Apr-2022 23:30:51.944 zone 9.E.F.IP6.ARPA/IN: number of nodes in database: 0
+21-Apr-2022 23:30:51.944 zone 9.E.F.IP6.ARPA/IN: loaded; checking validity
+21-Apr-2022 23:30:51.944 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.944 zone localhost/IN: starting load
+21-Apr-2022 23:30:51.944 zone localhost/IN: number of nodes in database: 1
+21-Apr-2022 23:30:51.944 no journal file, but that's OK
+21-Apr-2022 23:30:51.944 zone localhost/IN: journal rollforward completed successfully: no journal
+21-Apr-2022 23:30:51.944 zone localhost/IN: loaded; checking validity
+21-Apr-2022 23:30:51.944 decrement_reference: delete from rbt: 0xb0c4d098 localhost
+21-Apr-2022 23:30:51.944 zone_settimer: zone localhost/IN: enter
+21-Apr-2022 23:30:51.944 zone localhost/IN: loaded serial 2
+21-Apr-2022 23:30:51.944 zone version.bind/CH: starting load
+21-Apr-2022 23:30:51.944 zone version.bind/CH: number of nodes in database: 0
+21-Apr-2022 23:30:51.945 zone version.bind/CH: loaded; checking validity
+21-Apr-2022 23:30:51.945 zone_settimer: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.945 all zones loaded
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone localhost/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone localhost/IN: enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: managed-keys-zone : enter
+21-Apr-2022 23:30:51.945 zone_settimer: managed-keys-zone : enter
+21-Apr-2022 23:30:51.945 dns_zone_maintenance: zone 10.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.945 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 16.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 17.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 18.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 19.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 20.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 21.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 22.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 23.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 24.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.946 dns_zone_maintenance: zone 25.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 26.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 27.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 28.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 29.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 30.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 31.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 31.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 dns_zone_maintenance: zone 168.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.947 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 64.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 65.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 66.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 67.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 68.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 69.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 70.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 71.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 dns_zone_maintenance: zone 72.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.948 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 73.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 74.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 75.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 76.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 77.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 78.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 79.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 80.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 81.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 dns_zone_maintenance: zone 82.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.949 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 83.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 84.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 85.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 86.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 87.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 88.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 89.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 90.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 dns_zone_maintenance: zone 91.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.950 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 92.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 93.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 94.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 95.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 96.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 97.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 98.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 99.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 100.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 101.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.951 dns_zone_maintenance: zone 102.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 103.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 104.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 105.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 106.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 107.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 108.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 109.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 110.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 dns_zone_maintenance: zone 111.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.952 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 112.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 113.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 114.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 115.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 116.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 117.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 118.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 119.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 120.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 dns_zone_maintenance: zone 121.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.953 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 122.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 123.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 124.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 125.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 126.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 127.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 254.169.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 dns_zone_maintenance: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.954 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone D.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone 8.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone 9.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone A.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 dns_zone_maintenance: zone B.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.955 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.956 dns_zone_maintenance: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.956 dns_zone_maintenance: zone EMPTY.AS112.ARPA/IN: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+21-Apr-2022 23:30:51.956 dns_zone_maintenance: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.956 dns_zone_maintenance: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:51.956 dns_zone_maintenance: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.956 dns_zone_maintenance: zone id.server/CH: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone id.server/CH: enter
+21-Apr-2022 23:30:51.956 running
+21-Apr-2022 23:30:51.956 zone_timer: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.956 zone_maintenance: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone 255.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.956 zone_timer: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.956 zone_maintenance: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.956 zone_settimer: zone 0.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.956 zone_timer: zone 10.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 10.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 72.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 72.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 16.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 16.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 17.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 17.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 19.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 19.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 29.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 29.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 88.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 88.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_timer: zone 94.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.957 zone_maintenance: zone 94.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone localhost/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone localhost/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone 73.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone 73.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone localhost/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone 81.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone 81.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone 127.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone 28.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone 28.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone 20.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone 20.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_timer: zone 30.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.958 zone_maintenance: zone 30.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 18.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 18.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 25.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 25.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 22.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 22.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 24.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 24.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 21.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 21.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 23.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 23.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_timer: zone 71.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_maintenance: zone 71.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.959 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 76.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 76.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 98.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 98.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 103.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 103.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 85.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 85.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 92.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 92.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 78.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 78.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 80.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 80.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_timer: zone 99.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.960 zone_maintenance: zone 99.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 108.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 108.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 75.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 75.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 106.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 106.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 27.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 27.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 65.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 65.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 26.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 26.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_timer: zone 68.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_maintenance: zone 68.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.961 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 168.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 168.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 66.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 66.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 87.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 87.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 91.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 91.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 104.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 104.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_settimer: zone xubiang.com/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.962 zone_settimer: zone 0.168.192.in-addr.arpa/IN: enter
+21-Apr-2022 23:30:51.962 zone_timer: zone 102.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.962 zone_maintenance: zone 102.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone version.bind/CH: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 86.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone 86.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 115.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone 115.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 124.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone 124.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 112.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone 112.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 119.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_maintenance: zone 119.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.963 zone_timer: zone 93.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 93.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 90.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 90.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 69.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 69.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 107.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 107.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 70.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 70.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 77.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 77.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 100.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 100.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_timer: zone 109.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.964 zone_maintenance: zone 109.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_timer: zone 31.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_maintenance: zone 31.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_settimer: zone 31.172.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_timer: zone 64.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_maintenance: zone 64.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_timer: zone 126.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_maintenance: zone 126.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_timer: zone 254.169.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_maintenance: zone 254.169.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_timer: zone 9.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_maintenance: zone 9.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_timer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.965 zone_maintenance: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_timer: zone D.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_maintenance: zone D.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_timer: zone 105.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_maintenance: zone 105.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_timer: zone 79.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_maintenance: zone 79.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_timer: zone 122.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_maintenance: zone 122.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_timer: zone 84.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.966 zone_maintenance: zone 84.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone 95.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone 95.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone 110.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone 110.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone 111.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone 111.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone 67.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone 67.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone 74.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone 74.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_timer: zone B.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_maintenance: zone B.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.967 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 83.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 83.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 89.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 89.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 97.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 97.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 101.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 101.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 114.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 114.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 116.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 116.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_timer: zone 82.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.968 zone_maintenance: zone 82.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone 125.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone 125.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone EMPTY.AS112.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone EMPTY.AS112.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone 96.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone 96.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone 121.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone 121.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone 113.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone 113.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone 118.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone 118.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_timer: zone 117.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.969 zone_maintenance: zone 117.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone 127.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone 127.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone 8.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone 8.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone 123.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone 123.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone A.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_maintenance: zone A.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+21-Apr-2022 23:30:51.970 zone_timer: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.971 zone_maintenance: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.971 zone_settimer: zone authors.bind/CH: enter
+21-Apr-2022 23:30:51.971 zone_timer: zone id.server/CH: enter
+21-Apr-2022 23:30:51.971 zone_maintenance: zone id.server/CH: enter
+21-Apr-2022 23:30:51.971 zone_settimer: zone id.server/CH: enter
+21-Apr-2022 23:30:51.971 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.971 zone_timer: zone 120.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.971 zone_maintenance: zone 120.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.971 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+21-Apr-2022 23:30:51.971 zone_timer: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:51.971 zone_maintenance: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:51.971 zone_settimer: zone hostname.bind/CH: enter
+21-Apr-2022 23:30:55.142 client 172.18.0.2#58532: UDP request
+21-Apr-2022 23:30:55.143 client 172.18.0.2#58532: request is not signed
+21-Apr-2022 23:30:55.143 client 172.18.0.2#58532: recursion available
+21-Apr-2022 23:30:55.143 client 172.18.0.2#58532: query
+21-Apr-2022 23:30:55.143 client 172.18.0.2#58532 (www.xubiang.com): query 'www.xubiang.com/A/IN' approved
+21-Apr-2022 23:30:55.143 client 172.18.0.2#58532 (www.xubiang.com): send
+21-Apr-2022 23:30:55.143 client 172.18.0.2#58532 (www.xubiang.com): sendto
+21-Apr-2022 23:30:55.145 client 172.18.0.2#58532 (www.xubiang.com): senddone
+21-Apr-2022 23:30:55.145 client 172.18.0.2#58532 (www.xubiang.com): next
+21-Apr-2022 23:30:55.145 client 172.18.0.2#58532 (www.xubiang.com): endrequest
+21-Apr-2022 23:30:55.145 client @0xb2e864d0: udprecv
+21-Apr-2022 23:30:58.561 shutting down
+21-Apr-2022 23:30:58.561 stopping command channel on 127.0.0.1#953
+21-Apr-2022 23:30:58.561 stopping command channel on ::1#953
+21-Apr-2022 23:30:58.562 dns_requestmgr_shutdown: 0xb0ece508
+21-Apr-2022 23:30:58.562 send_shutdown_events: 0xb0ece508
+21-Apr-2022 23:30:58.562 dns_requestmgr_shutdown: 0xb0efec08
+21-Apr-2022 23:30:58.562 send_shutdown_events: 0xb0efec08
+21-Apr-2022 23:30:58.562 no longer listening on ::#53
+21-Apr-2022 23:30:58.562 clientmgr @0xb4f57008: destroy
+21-Apr-2022 23:30:58.562 no longer listening on 127.0.0.1#53
+21-Apr-2022 23:30:58.562 clientmgr @0xb4f57240: destroy
+21-Apr-2022 23:30:58.562 no longer listening on 172.18.0.3#53
+21-Apr-2022 23:30:58.562 clientmgr @0xb4f57478: destroy
+21-Apr-2022 23:30:58.562 calling free_rbtdb(.)
+21-Apr-2022 23:30:58.562 done free_rbtdb(.)
+21-Apr-2022 23:30:58.562 zone_shutdown: zone 106.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.562 zone_shutdown: zone 103.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.562 zone_shutdown: zone 104.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.562 zone_shutdown: zone 0.in-addr.arpa/IN: shutting down
+21-Apr-2022 23:30:58.562 calling free_rbtdb(0.in-addr.arpa)
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 112.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 108.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 124.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone EMPTY.AS112.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 102.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 125.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 127.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 100.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 109.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 101.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 113.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 105.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 120.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 121.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 123.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 done free_rbtdb(0.in-addr.arpa)
+21-Apr-2022 23:30:58.563 zone_shutdown: zone 10.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.563 client @0xb2e29d98: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e29d98: free
+21-Apr-2022 23:30:58.564 client @0xb2e39438: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e39438: accept failed: operation canceled
+21-Apr-2022 23:30:58.564 client @0xb2e39438: free
+21-Apr-2022 23:30:58.564 client @0xb2e3bee0: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e318e8: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e3bee0: free
+21-Apr-2022 23:30:58.564 client @0xb2e42fd8: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e42fd8: free
+21-Apr-2022 23:30:58.564 client @0xb2e318e8: free
+21-Apr-2022 23:30:58.564 clientmgr @0xb4f57008: clientmgr_destroy
+21-Apr-2022 23:30:58.564 client @0xb2e76e30: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e76e30: accept failed: operation canceled
+21-Apr-2022 23:30:58.564 client @0xb2e76e30: free
+21-Apr-2022 23:30:58.564 clientmgr @0xb4f57240: clientmgr_destroy
+21-Apr-2022 23:30:58.564 client @0xb2e7e980: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e7e980: free
+21-Apr-2022 23:30:58.564 client @0xb2e864d0: shutdown
+21-Apr-2022 23:30:58.564 client @0xb2e864d0: free
+21-Apr-2022 23:30:58.565 client @0xb2e8e020: shutdown
+21-Apr-2022 23:30:58.565 client @0xb2e8e020: accept failed: operation canceled
+21-Apr-2022 23:30:58.565 client @0xb2e8e020: free
+21-Apr-2022 23:30:58.565 clientmgr @0xb4f57478: clientmgr_destroy
+21-Apr-2022 23:30:58.569 zone_shutdown: zone 88.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.569 zone_shutdown: zone 94.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.569 zone_shutdown: zone 119.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 75.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 115.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 126.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 64.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 67.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 110.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 111.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 118.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 66.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 78.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 80.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 65.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 81.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 99.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 107.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 122.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.570 zone_shutdown: zone 69.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 98.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone version.bind/CH: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 72.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 73.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 74.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 82.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 114.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 116.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 70.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 77.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 86.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 93.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 113.0.203.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 20.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 30.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 68.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 90.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 9.E.F.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.571 zone_shutdown: zone 85.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 92.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 79.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 83.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 117.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 71.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 84.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 95.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 127.in-addr.arpa/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 31.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 0.168.192.in-addr.arpa/IN: shutting down
+21-Apr-2022 23:30:58.572 calling free_rbtdb(0.168.192.in-addr.arpa)
+21-Apr-2022 23:30:58.572 done free_rbtdb(0.168.192.in-addr.arpa)
+21-Apr-2022 23:30:58.572 calling free_rbtdb(127.in-addr.arpa)
+21-Apr-2022 23:30:58.572 done free_rbtdb(127.in-addr.arpa)
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 28.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 22.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone 24.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.572 zone_shutdown: zone localhost/IN: shutting down
+21-Apr-2022 23:30:58.572 calling free_rbtdb(localhost)
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 100.51.198.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 254.169.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 89.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 96.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 76.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 87.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 done free_rbtdb(localhost)
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 8.E.F.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone xubiang.com/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 97.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 calling free_rbtdb(xubiang.com)
+21-Apr-2022 23:30:58.573 done free_rbtdb(xubiang.com)
+21-Apr-2022 23:30:58.573 zone_shutdown: zone hostname.bind/CH: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone 26.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone D.F.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.573 zone_shutdown: zone B.E.F.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 18.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 25.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 91.100.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 19.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 27.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 255.255.255.255.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 29.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 16.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 255.in-addr.arpa/IN: shutting down
+21-Apr-2022 23:30:58.574 calling free_rbtdb(255.in-addr.arpa)
+21-Apr-2022 23:30:58.574 done free_rbtdb(255.in-addr.arpa)
+21-Apr-2022 23:30:58.574 zone_shutdown: managed-keys-zone : shutting down
+21-Apr-2022 23:30:58.574 calling free_rbtdb(.)
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 2.0.192.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 17.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone 21.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone A.E.F.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.574 zone_shutdown: zone authors.bind/CH: shutting down
+21-Apr-2022 23:30:58.575 zone_shutdown: zone 23.172.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.575 zone_shutdown: zone 168.192.IN-ADDR.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.575 calling free_rbtdb(168.192.IN-ADDR.ARPA)
+21-Apr-2022 23:30:58.575 done free_rbtdb(.)
+21-Apr-2022 23:30:58.575 zone_shutdown: zone id.server/CH: shutting down
+21-Apr-2022 23:30:58.575 done free_rbtdb(168.192.IN-ADDR.ARPA)
+21-Apr-2022 23:30:58.575 zone_shutdown: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: shutting down
+21-Apr-2022 23:30:58.575 dns_requestmgr_detach: 0xb0efec08: eref 0 iref 0
+21-Apr-2022 23:30:58.575 mgr_destroy
+21-Apr-2022 23:30:58.575 calling free_rbtdb(.)
+21-Apr-2022 23:30:58.575 dns_requestmgr_detach: 0xb0ece508: eref 0 iref 0
+21-Apr-2022 23:30:58.575 mgr_destroy
+21-Apr-2022 23:30:58.575 calling free_rbtdb(.)
+21-Apr-2022 23:30:58.575 done free_rbtdb(.)
+21-Apr-2022 23:30:58.575 calling free_rbtdb(.)
+21-Apr-2022 23:30:58.575 done free_rbtdb(.)
+21-Apr-2022 23:30:58.575 done free_rbtdb(.)
+21-Apr-2022 23:30:58.583 Unregistering DLZ_dlopen driver
+21-Apr-2022 23:30:58.583 Unregistering SDLZ driver.
+21-Apr-2022 23:30:58.583 Unregistering DLZ driver.
+21-Apr-2022 23:30:58.583 exiting

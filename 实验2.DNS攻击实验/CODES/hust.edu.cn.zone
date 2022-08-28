@@ -1,0 +1,16 @@
+$TTL 3D                 ; Default expiration time
+
+@               IN    SOA   ns.hust.edu.cn. admin.hust.edu.cn. (
+                2001032701  ; Serial
+                8H          ; Refresh
+                2H          ; Retry
+                4W          ; Exprire
+                1D)         ; Minimum
+
+@               IN     NS   ns.xubiang.net.
+@               IN     MX   10 mail.hust.edu.cn.
+
+www             IN      A   192.168.0.101
+mail            IN      A   192.168.0.102
+ns              IN      A   192.168.0.10
+*.hust.edu.cn.  IN      A   192.168.0.100

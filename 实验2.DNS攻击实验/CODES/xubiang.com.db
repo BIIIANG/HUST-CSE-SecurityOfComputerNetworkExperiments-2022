@@ -1,0 +1,16 @@
+$TTL 3D                 ; Default expiration time
+
+@           IN    SOA   ns.xubiang.com. admin.xubiang.com. (
+            2001032701  ; Serial
+            8H          ; Refresh
+            2H          ; Retry
+            4W          ; Exprire
+            1D)         ; Minimum
+
+@           IN     NS   ns.xubiang.com.
+@           IN     MX   10 mail.xubiang.com.
+
+www         IN      A   192.168.0.101
+mail        IN      A   192.168.0.102
+ns          IN      A   192.168.0.10
+*.xubiang.com.  IN  A   192.168.0.100

@@ -1,0 +1,12 @@
+$TTL 3D
+@	IN	SOA	ns.xubiang.com. admin.xubiang.com. (
+        2001032701
+        8H
+        2H
+        4W
+        1D)
+@	IN	NS	ns.xubiang.com.
+
+101	IN	PTR	www.xubiang.com.
+102	IN	PTR	mail.xubiang.com.
+10	IN	PTR	ns.xubiang.com.

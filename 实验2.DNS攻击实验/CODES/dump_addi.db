@@ -1,0 +1,72 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20220501134329
+; authauthority
+hust.edu.cn.		11756	IN NS	ns1.hust.edu.cn.
+			11756	IN NS	ns2.hust.edu.cn.
+; additional
+ns1.hust.edu.cn.	11756	A	201.91.180.3
+; additional
+ns2.hust.edu.cn.	11756	A	200.10.3.27
+; authanswer
+www.hust.edu.cn.	11756	A	172.18.0.1
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;	2001:500:2d::d [srtt 219750] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1753]
+;	192.33.4.12 [srtt 17] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	202.12.27.33 [srtt 65180] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1753]
+;	192.228.79.201 [srtt 22] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	192.203.230.10 [srtt 21] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:dc3::35 [srtt 226110] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1752]
+;	193.0.14.129 [srtt 15] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	199.7.91.13 [srtt 183720] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1753]
+;	2001:503:ba3e::2:30 [srtt 22] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	192.5.5.241 [srtt 15] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:7fd::1 [srtt 52420] [flags 00000000] [edns 0/2/2/2/2] [plain 0/0] [ttl 1752]
+;	2001:7fe::53 [srtt 31] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:500:2f::f [srtt 244660] [flags 00000000] [edns 0/1/1/1/1] [plain 0/0] [ttl 1753]
+;	192.58.128.30 [srtt 11] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:500:3::42 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:500:2::c [srtt 22] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:503:c27::2:30 [srtt 26] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	198.41.0.4 [srtt 39690] [flags 00000008] [edns 1/3/3/3/3] [plain 0/0] [udpsize 512] [ttl 1753]
+;	2001:500:1::53 [srtt 20] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	198.97.190.53 [srtt 12] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	2001:500:84::b [srtt 30] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	192.36.148.17 [srtt 26] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	199.7.83.42 [srtt 22] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1753]
+;	192.112.36.4 [srtt 203960] [flags 00000000] [edns 0/3/3/3/3] [plain 0/0] [ttl 1753]
+;
+; Bad cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20220501134329
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+; Dump complete
